@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#00CED1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="io.github.hidroh.calendar.DetailActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="40sp"
+        android:text="KELOMPOK 4"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:text="" />
+    <ImageView
+        android:id="@+id/sumberpersib"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/calender"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:text="" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:text="Pembuat   : Banni Febriansyah,Astri Tania dan Wine Widiawaty" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:text="Jurusan : Teknik Informatika " />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:text="Angkatan  : 2016 " />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:text="" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:text="Informasi Aplikasi" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:text="Aplikasi Kalender ini seperti kalender pada umum nya, yang menyajikan hari/tanggal, bulan dan tahun. perbedaan aplikasi kalender ini dengan kalender biasanya yaitu terletak pada fitur-fitur yang ada. fitur tersebut antara lain adanya perkiraan Cuaca, daftar hari libur Nasional dan juga Berita-berita sesuai tanggal" />
+
+</LinearLayout>
